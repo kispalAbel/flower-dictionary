@@ -1,3 +1,7 @@
 .navBar {
-    
+    display: none;
+}
+
+.navBar.open {
+    display: block;
 }

@@ -1,6 +1,27 @@
 table {
     background-color: antiquewhite;
     width: 1100px;
-    height: 8g00px;
+    height: 800px;
     border-radius: 100px;
+    color: darkgreen;
+    padding: 10px;
+    border: solid 15px darkgreen;
+    
+}   
+.er {
+    height: 20px;
+}
+h1 {
+    color: darkgreen;
+    font-size: 50px;
+}
+img {
+    height: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+p {
+    font-size: 25px;
+    padding: 10px;
 }

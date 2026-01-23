@@ -5,3 +5,28 @@
 .navBar.open {
     display: block;
 }
+
+body::before {
+    inset: 0;
+    content: "";
+    position: fixed;
+    background-image: url(../media/indexSzonyeg.png);
+    background-repeat: repeat;
+    /* opacity: 0.6; */
+    z-index: -1;
+}
+
+div {
+    background-color: beige;
+    opacity: 0.9;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    border-radius: 50px;
+    z-index: 0;
+}
+
+img {
+    z-index: 1;
+    position: fixed;
+}

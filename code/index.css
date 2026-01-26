@@ -20,13 +20,20 @@ div {
     background-color: beige;
     opacity: 0.9;
     width: 300px;
-    height: 300px;
     position: fixed;
     border-radius: 50px;
     z-index: 0;
 }
 
+h4 {
+    text-align: center;
+}
+
 img {
     z-index: 1;
-    position: fixed;
+    position: relative;
+}
+
+table td:nth-child(2) {
+    vertical-align: top;
 }

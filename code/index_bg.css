@@ -1,0 +1,9 @@
+body::before {
+    inset: 0;
+    content: "";
+    position: fixed;
+    background-image: url(../media/indexSzonyeg.png);
+    background-repeat: repeat;
+    /* opacity: 0.6; */
+    z-index: -1;
+}

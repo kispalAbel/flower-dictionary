@@ -19,11 +19,11 @@ h4 {
     text-align: center;
 }
 
-img {
+#index_pic {
     z-index: 1;
-    position: relative;
+    position: fixed;
 }
 
-table td:nth-child(2) {
+table td {
     vertical-align: top;
 }
